@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+</head>
+<body>
+    <section class="aboutUs">
+        <h2 id="we">Немного о нас</h2>
+        <div class="statistics">
+            <div class="itPark">
+                <img src="./img/golden_cup.svg" alt="Golden cup">
+                <p><b>Резиденты IT-парка и одна из самых успешных DIGITAL-школ в Узбекистане</b></p>
+            </div>
+            <div class="numbers">
+                <div class="graduates">
+                    <h2>> 2500</h2>
+                    <span>выпускников</span>
+                </div>
+                <div class="digital">
+                    <h2>10 направлений </h2>
+                    <span>обучения в сфере Digital</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="parties">
+        <div class="graduation">
+            <h2 id="special">Все еще сомневаешься?</h2>
+            <p>Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
+
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+            <img src="./img/white.svg" alt="People in white">
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/diploma.svg" alt="diploma photo">
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/confetti.svg" alt="confetti photo">
+      </div>
+      <div class="swiper-slide">
+        <img src="./img/teacher.svg" alt="photo with teacher">
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+        </div>
+    </section>
+
+    <section class="application">
+    <div class="blackScreen">
+        <div class="courses">
+            <h2>запишись на курс прямо сейчас!</h2>
+            <div class="choice">
+                <div class="frontend">
+                    <img src="./img/icon_python.svg" alt="icon_python">
+                    <p>html, css, js</p>
+                </div>
+                <div class="game">
+                    <img src="./img/icon_game_bot.svg" alt="icon_game_bot">
+                    <p>Разработка онлайн игр</p>
+                </div>
+                <div class="github">
+                    <img src="./img/icon_database.svg" alt="icon_database">
+                    <p>Введение в Bootstrap и Github</p>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+                <h4>оставь заявку</h4>
+                <p>начало обучения: 1 декабря</p>
+                <form action="">
+                    <input type="text" name="username" placeholder="Имя">
+                    <input type="text" name="usersurname" placeholder="Фамилия">
+                    <input type="number" name="userphone" placeholder="Телефон">
+                    <button class="purple">Записаться на курс</button>
+                    <h5>остались вопросы?</h5>
+                    <span>
+                        Звони: +998 33 135 33 55 <br />
+                        Наши консультанты доступны каждый день 
+                        с 10:00 до 22:00.
+                    </span>
+                </form>
+        </div>
+    </div>
+    </section>
+<script src="./swiper/swiper-bundle.min.js"></script>
+<script> 
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+  autoplay: {
+        delay: 3000,
+  },
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+    // when window width is >= 640px
+    850: {
+      slidesPerView: 3,
+      spaceBetween: 25
+    }
+},
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  }
+});
+</script>
+</body>
+</html>

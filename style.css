@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;  
+    color: #222222;                      
+}
+
+.aboutUs, .parties {
+    padding: 0px calc(23.5px + (160 - 23.5) * ((100vw - 375px) / (1280 - 375))) 0px calc(23.5px + (117 - 23.5) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h2 {
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+    letter-spacing: 0.01em;
+}
+
+p {
+    font-size: calc(22px + (27 - 22) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+span {
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+#we {
+    text-transform: uppercase;
+    margin-bottom: calc(34px + (80 - 34) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.statistics {
+    display: flex;
+    gap: calc(40px + (97 - 40) * ((100vw - 375px) / (1280 - 375)));
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.statistics > div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.itPark img {
+    margin-bottom: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.itPark p {
+    font-weight: 600;
+}
+
+#special {
+    text-transform: uppercase;
+    margin-bottom: calc(14px + (14 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.swiper {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.swiper img {
+    width: 100%;
+    margin-top: calc(20px + (24 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.graduation p {
+    max-width: calc(328px + (748 - 328) * ((100vw - 375px) / (1280 - 375)));;
+}
+
+.application {
+    background-color: #222222;
+    color: white;
+    padding: 0px calc(23.5px + (91 - 23.5) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.blackScreen {
+    display: flex;
+    gap: calc(88px + (140 - 88) * ((100vw - 375px) / (1280 - 375)));
+    flex-wrap: wrap;
+}
+
+.blackScreen > div {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.application h2 {
+    text-transform: uppercase;
+    margin: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375))) 0px;
+    max-width: calc(329px + (424 - 329) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.choice > div {
+    display: flex;
+    gap: 20px;
+    padding-bottom: calc(20px + (24 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.choice {
+    margin-bottom: 187px;
+}
+
+.form {
+    background-color: #FFFFFF;
+    padding: 60px calc(30px + (68 - 30) * ((100vw - 375px) / (1280 - 375)));
+    border-radius: 12px;
+    max-width: calc(327px + (400 - 327) * ((100vw - 375px) / (1280 - 375)));
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.form h4 {
+    font-size: calc(26px + (30 - 26) * ((100vw - 375px) / (1280 - 375)));
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.form p {
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 30px;
+    width: 80%;
+    outline: 0;
+    border: 0px;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 14px;
+    color:#0000002B;
+    ;
+}
+
+.form button.purple {
+    background-color: #6E3ABA;
+    color: white;
+    border: none;
+    font-size: calc(18px + (20 - 18) * ((100vw - 375px) / (1280 - 375)));
+    width: calc(267px + (328 - 267) * ((100vw - 375px) / (1280 - 375)));
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-weight: 500;
+    line-height: 117%;
+    margin-bottom: 40px;
+}
+
+.form h5 {
+    font-size: 18px;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+} 
+
+.form span {
+    font-size: 18px;
+    color: #7a7a7a;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.form::before {
+    content: "10%";
+    position: absolute;
+    top: calc(-53px + (-61 + 53) * ((100vw - 375px) / (1280 - 375)));
+    left: calc(-30px + (-67 + 30) * ((100vw - 375px) / (1280 - 375)));
+    background-color:#6E3ABA;
+    color: white;
+    width: calc(105px + (159 - 105) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(105px + (159 - 105) * ((100vw - 375px) / (1280 - 375)));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(40px + (63 - 40) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+}
